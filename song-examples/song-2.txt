@@ -1,0 +1,13 @@
+// Song with two sequential rhythms
+Create song 
+With title "song 2"
+With tempo 60
+
+Create rhythm "rhythm 1" using Piano:
+	QC4 QD4 QE4 QF4
+	Loop 4 times
+
+Create rhythm "rhythm 2" using Trumpet:
+	WC5 WD5 WE5 WF5
+
+Play "rhythm 1" then play "rhythm 2"

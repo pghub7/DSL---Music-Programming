@@ -1,0 +1,10 @@
+// Most basic example of a song
+Create song
+With title "song 1"
+With tempo 120
+
+Create rhythm "rhythm 1" using Piano:
+	QC4 QD4 QE4 QF4
+	Loop 4 times
+	
+Play "rhythm 1"

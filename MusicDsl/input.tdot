@@ -1,0 +1,39 @@
+Create song
+With title "song_5"
+With tempo 180
+
+Create rhythm "rhythm_1"~Electric_Bass_Finger:
+	D3I D3S RH G3I G3S RQ B2Q C3I C3S RH D3I D3S RQ E3I E3S
+	Loops: 10
+
+Create rhythm "rhythm_2"~Trumpet:
+	G3I A3S C4I D4S C4I D4S G4I A4S G4I A4S E4Q RS F4H
+	Loops: 1
+
+Create rhythm "rhythm_3"~Trombone:
+	G5I E5I RI G5S RI E5Q RS G5Q E5I RS A5I RS G5Q A5S E5I D5I RI C5H RI
+	Loops: 1
+
+Create rhythm "rhythm_4"~Alto_Sax:
+	C4I A5Q G5I RS A5S E5I D5I RS C5Q
+	Loops: 1
+
+Create rhythm "rhythm_5"~Trombone:
+    RH G5I E5I RI G5S RI E5Q RS G5Q E5I RS D5Q RS C5H RS
+    Loops: 1
+
+Create rhythm "rhythm_6"~Trombone:
+    RQ A4S G5I E5I RS G5I RS E5Q D5I C5I RS C5Q G4Q RI
+    Loops: 1
+
+Create rhythm "rhythm_7"~Trombone:
+    C5S A3Q C5I RS D5I RS E5Q RS D5Q E5I RS D5I E5S D4Q RS C5I A4Q C5H RW RH
+    Loops: 1
+
+Create rhythm "main"~Piano:
+    D4H RI G3H RI C4W RH
+    D4H RI G4H RI C4W RH
+    Loops: 5
+
+Play "rhythm_5", Play "rhythm_4", Play "rhythm_6", Play "rhythm_2", Play "rhythm_3", Play "rhythm_7"
+Play "main" ^ "rhythm_1"
